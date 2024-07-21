@@ -1,0 +1,56 @@
+
+table { 
+            backdrop-filter:blur(6px);
+            width: 85%;
+            margin-top:40px;
+            z-index:99;
+            margin-left:120px;
+            
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        th {
+            background-color: none;
+        }
+        .game
+        {
+            text-align:center;
+             background-color: none;
+             border:1px solid black;
+             font-size:30px;
+             width:20%;
+             margin-left:600px;
+            
+        }
+        .link{
+            text-decoration:none;
+            
+             color:black;
+        }
+          @media all and (max-width:420px ) and (max-height:800px) {
+              main {
+      margin: 0;
+    }
+      
+     table{
+         width:95%;
+         margin-top:60px;
+         position:fixed;
+     }
+     .game{
+         margin-top:580px;
+         position:fixed;
+         margin-left:170px;
+         font-size:20px;
+         padding:8px;
+     }
+     .heading{
+          margin-left:100px;
+     }
+ 
+      
+    
+    
+  }

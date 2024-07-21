@@ -1,0 +1,41 @@
+Import Excel Data into Mysql Using PHP 
+
+Step1: Download the PHPSpreadSheet Library using composer in your project root directory
+
+composer require phpoffice/phpspreadsheet
+
+Step2: include library file in your php file
+
+use PhpOffice\PhpSpreadsheet\Reader\Xlsx;
+require_once ('vendor/autoload.php');
+
+Step3: Create object and access excel data using library
+
+
+ $Reader = new \PhpOffice\PhpSpreadsheet\Reader\Xlsx();
+
+        $spreadSheet = $Reader->load($targetPath);
+        $excelSheet = $spreadSheet->getActiveSheet();
+        $spreadSheetAry = $excelSheet->toArray();
+        $sheetCount = count($spreadSheetAry);
+
+Step4: Write the insert query to insert data into databse.
+
+
+Step5: If you want to add validation then add this code:
+
+$allowedFileType = [
+        'application/vnd.ms-excel',
+        'text/xls',
+        'text/xlsx',
+'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+    ];
+
+    if (in_array($_FILES["file"]["type"], $allowedFileType)) {
+
+
+name
+email
+mobile
+message
+

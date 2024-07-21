@@ -1,0 +1,687 @@
+
+
+
+
+
+header{
+  position: fixed;
+  left: 0;
+  top:160px;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.title{
+  position: fixed;
+  left: 250;
+  top:0px;
+  width: 85%;
+  height:200px;
+  right: 50px;
+ 
+  
+  padding: 20px;
+  background:url(w.png) no-repeat ;
+ 
+
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  z-index: 99;
+  color: #e8ebf0;
+}
+.announce{
+  width:100%;
+  position: fixed;
+  color:black;
+  top:210px;
+  font-size: larger;
+  
+}
+.row{
+  top:0px;
+  height:10px;
+}
+.navigation{
+  display: flex;
+  justify-content:flex-end;
+  margin-top: 10px;
+  margin-right: 50px;
+}
+.navigation a{
+  position: relative;
+  font-size: 5 em;
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 50px;
+
+
+}
+.l{
+  margin-right: 10%;
+}
+
+.navigation a::after{
+content: '';
+position: absolute;
+left: 0;
+bottom: -6px;
+width: 100%;
+height: 3px;
+background: black;
+border-radius: 20px;
+transform:scaleX(0);
+transition: 0.5s;
+
+}
+
+.navigation a:hover::after{
+
+  transform: scaleX(1);
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background:url(bg2.jpeg) repeat  ;
+  background-size:cover;
+  background-position: center;
+}
+  #topHeader
+{
+	width:100%;
+	height: auto;;
+	-webkit-box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	-moz-box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	box-shadow: 0px 15px 35px 0px rgba(107,90,107,1);
+	background-color:rgb(36, 39, 36);
+	font-family:"Trebuchet MS";
+	font-size:24px;
+	color:#000b0f;
+	text-align:center;
+	vertical-align:middle;
+	padding:10px 0px;
+}
+
+
+  
+  .change{
+    margin-left: 50px;
+    margin-bottom: 800px;
+    
+  }
+  
+.blur-container {
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+  background: rgba(77, 180, 165, 0.348); /* Adjust the background color and opacity as needed */
+  padding: 20px;
+  margin: 40px auto; /* Center the form on the page */
+  border: 2px solid #333; /* Set the border color and width */
+  border-radius: 10px;
+  text-align: center;
+}
+
+
+  
+  :root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+    --transition-speed: 600ms;
+  }
+  
+  body {
+    color: black;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body::-webkit-scrollbar {
+    width: 0.25rem;
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #1e1e24;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background: #6649b8;
+  }
+  
+  main {
+    margin-left: 5rem;
+    padding: 1rem;
+  }
+  
+  .navbar {
+  
+   margin-right: 100px;
+   margin-top: 40px;
+   
+  
+  }
+  
+  .navbar-nav {
+    display: flex;
+    height: 10px;
+    color:black;
+    margin-top: 130px;
+    padding: 100px;
+    justify-content: space-evenly;
+  }
+  .box{
+
+      display: flex;
+      height: 10px;
+      color:black;
+      
+      top:150px;
+      padding: 100px;
+      justify-content: space-evenly;
+
+  }
+  /* Remove scrollbar color */
+body::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar width */
+}
+
+/* Optionally, if you want to remove scrollbar track color */
+body::-webkit-scrollbar-track {
+  background: none; /* Remove scrollbar track background */
+}
+
+/* Optionally, if you want to remove scrollbar thumb color */
+body::-webkit-scrollbar-thumb {
+  background: none; /* Remove scrollbar thumb background */
+}
+
+
+  .nav-item1 {
+    color:black;
+  }
+  .nav-item{
+    display: flex;
+    color:black;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 150px;
+    padding: 5px;
+    margin: 20px;
+    
+    width:250px;
+    border-radius: 10px;
+    border-color: black;
+    border: 2px solid;
+    justify-content:flex-start;
+    background-image: linear-gradient(45deg ,rgb(217, 217, 217), rgb(226, 244, 250), rgb(237, 247, 254));
+    background-color:white;
+   
+  }
+  
+ /*.nav-item:last-child {
+    margin-top: auto;
+  }*/
+  .i1{
+    background:url(feedback.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i2{
+    background:url(f2.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i3{
+    background:url(f3.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i4{
+    background:url(f4.jpg);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i5{
+    background:url(f5.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i6{
+    background:url(f6.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i7{
+    background:url(f7.png);
+    height: 80px;
+    width: 80px;
+    margin:auto;
+    background-size: contain;
+  }
+  .nav-link {
+    color:darkblue;
+ 
+   
+  }
+  .n{
+    margin: 2px;
+  }
+  
+  
+  
+  .nav-link svg {
+    width: 1rem;
+    min-width: 2rem;
+    height: 5rem;
+   
+  }
+  
+ .link-text{
+  display: inline;
+  
+ }
+ .navbar-nav a:link{
+  text-decoration: none;
+ }
+ .navbar-nav a:visited{
+  text-decoration: none;
+ }
+ .navbar-nav a:hover{
+  text-decoration: none;
+ }
+ .navbar-nav a:active{
+  text-decoration: none;
+ }
+ .box a:link{
+  text-decoration: none;
+ }
+ .box a:visited{
+  text-decoration: none;
+ }
+ .box a:hover{
+  text-decoration: none;
+ }
+ .box a:active{
+  text-decoration: none;
+ }
+
+  
+  .logo svg {
+    transform: rotate(0deg);
+    transition: var(--transition-speed);
+  }
+  .h{
+    font-weight: normal;
+}
+
+
+ 
+  @media all and (max-width:420px ) and (max-height:800px) {
+    .navbar {
+    
+     
+      
+      padding-left: 10px;
+      
+      margin-top: 290px;
+      
+      
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    .navbar-nav {
+      display: flex;
+      margin-top: 100px;
+      flex-direction: column;
+      width: 100px;
+      height:20px;
+      padding-left: 0px;
+
+     
+    }
+    .h{
+      font-weight: normal;
+  }
+  
+    .box{
+      display: flex;
+      width: 30px;
+      height:20px;
+      flex-direction: column;
+      margin-top: 170px;
+      flex-wrap: nowrap;
+      padding-right: 80px;
+      padding-left: 0px;
+   
+   
+      
+    }
+    .content-wrapper {
+ height: calc(100vh - 100px); /* Adjust the height as needed */
+      overflow-y: auto; /* Enable vertical scrolling */
+      backdrop-filter: blur(100px);
+
+  }
+  .i1{
+    background:url(feedback.png) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i2{
+    background:url(f2.png) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i3{
+    background:url(f3.png ) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i4{
+    background:url(f4.jpg) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i5{
+    background:url(f5.png) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i6{
+    background:url(f6.png) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+  .i7{
+    background:url(f7.png) no-repeat;
+    height: 40px;
+    width: 60px;
+    margin:auto;
+    background-size: contain;
+  }
+   
+  
+    .nav-item{
+      display: flex;
+    color:black;
+    flex-wrap: wrap;
+    height: 60px;
+    padding: 5px;
+    margin: 20px;
+    width:300px;
+    border-radius: 10px;
+    border-color: black;
+    border: 1px solid;
+    justify-content: space-evenly;
+    /*background-image: linear-gradient(45deg ,rgb(165, 162, 162), rgb(97, 97, 247), rgb(166, 230, 250), rgb(222, 241, 255));*/
+    background-color: white;
+    }
+  
+    .nav-link {
+      justify-content: center;
+    }
+    .nav-link svg {
+      width: 1rem;
+      min-width: 1rem;
+      height: 1rem;
+     
+    }
+    
+
+      
+.blur-container {
+  backdrop-filter: blur(10px); /* Adjust the blur value as needed */
+  
+  padding: 8px;
+  width: 350px;
+  height: 5px;
+  margin-left: 20px;
+  margin: 8px ; /* Center the form on the page */
+  border: 2px solid #333; /* Set the border color and width */
+  border-radius: 10px;
+  text-align: center;
+}
+  
+    main {
+      margin: 0;
+    }
+      body{
+         display:block;
+         background:url(bg2.jpeg) repeat  ;
+         background-size:cover;
+         background-position: center;
+        
+      }
+      .logo{
+          display: flex;
+          justify-content: center;
+      
+      }
+  
+      .title{
+          margin-top: 20px;
+          background: url(w.png) no-repeat;
+          background-size:contain;
+          height: 100px;
+          margin-left: 0px;
+          left:10px;
+          
+         
+          
+      }
+      .row{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+       
+        
+     }
+     .navigation{
+         width: 60%;
+         
+         display: flex;
+         flex-direction: column;
+         
+     }
+     
+ .navigation a::after{
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     width: 100%;
+     height: 3px;
+     background:black;
+     border-radius: 20px;
+     transform:scaleX(0);
+     transition: 0.5s;
+    
+    }
+    
+    .navigation a:hover::after{
+      
+        transform: scaleX(10);
+    }
+    header{
+     padding:0;
+     z-index: -99;
+    }
+     
+     .announce{
+        
+        
+         width: 100%;
+       
+         height: 10px;
+         font-size: small; 
+        
+     }
+     .n{
+         display: flex;
+         justify-content: flex-end;
+         height:20px;
+         width: 40%;
+         
+       
+        
+         flex-direction: row-reverse;
+        
+         
+         
+     }
+     .navigation .btnlogin-popup{
+        
+         margin-top: 26px;
+         height: 30px;
+         margin-right: 110px;
+         font-size:medium;
+         width: 260px;
+         
+     }
+     .navigation a{
+         margin-top: 20px;
+         display: flex;
+         justify-content:left;
+         align-items: flex-end;
+        
+     }
+ 
+      .message{
+          display:flex;
+          margin-top: 50px;
+          flex-wrap: wrap;
+          width:300px;
+          justify-content: center;
+          align-items: center;
+          margin-right: 80px;
+          font-size:xx-small;
+          margin-left: 60px;
+          position: fixed;
+      
+  
+  
+      }
+      .image{
+          height:100px;
+          margin-top: 300px;
+          margin-bottom: 20px;
+          
+      }
+      .m{
+          margin-top: 0.1px;
+      }
+      .wrapper{
+          
+          top: 0;
+        
+          left:20%;
+          margin-top: 0.1px;
+          margin-bottom: 10px;
+         
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          bottom: 10%;
+          font-size: small; 
+  
+  
+      }
+      .wrapper   .icon-close{
+         
+          background:#162938;
+          font-size: 2emc;
+          color: #fff;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom-left-radius: 20px;
+          cursor: pointer;
+          z-index:1;
+      
+         
+         }
+    
+  }
+  
+  
+  
+  .dark {
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondary: #141418;
+  }
+  
+  .light {
+    --text-primary: #1f1f1f;
+    --text-secondary: #000000;
+    --bg-primary: #ffffff;
+    --bg-secondary: #e4e4e4;
+  }
+  
+  .solar {
+    --text-primary: #576e75;
+    --text-secondary: #35535c;
+    --bg-primary: #fdf6e3;
+    --bg-secondary: #f5e5b8;
+  }
+  
+  .theme-icon {
+    display: none;
+  }
+  
+  .dark #darkIcon {
+    display: block;
+  }
+  
+  .light #lightIcon {
+    display: block;
+  }
+  
+  .solar #solarIcon {
+    display: block;
+  }
+  
+  
+  
+

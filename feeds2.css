@@ -1,0 +1,319 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:url(bg2.jpeg) repeat  ;
+    background-size:cover;
+    background-position: center;
+   
+}
+
+header{
+    position: fixed;
+    left: 0;
+    top:160px;
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: -99;
+}
+.title{
+    position: fixed;
+    left: 140;
+    top:0px;
+    width: 80%;
+    height:200px;
+    right: 50px;
+   
+    
+    padding: 20px;
+    background:url(w.png) no-repeat ;
+   
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index: -99;
+    color: #e8ebf0;
+}
+.announce{
+    width:100%;
+    position: fixed;
+    color:black;
+    top:210px;
+    font-size: larger;
+   
+    
+}
+
+.row{
+    top:0px;
+    height:10px;
+}
+
+.logo{
+    font-size: 1.8em;
+    color: white;
+    user-select: none;
+}
+
+
+
+
+
+.box{
+    margin-top: 300px ;
+    position: fixed;
+
+}
+
+form {
+    
+    width: 500px; /* Set your desired width */
+    margin-top: 260px ; /* Center the form on the page */
+    padding: 10px; /* Add some padding inside the form */
+    border: 2px solid #333; /* Set the border color and width */
+    border-radius: 10px; /* Add rounded corners to the border */
+    height: auto;
+    right: 10px;
+    z-index: 99;
+    backdrop-filter: blur(8px);
+}
+
+
+.blur-container {
+    backdrop-filter: blur(2px); /* Adjust the blur value as needed */
+    /*background: rgba(77, 180, 165, 0.348); /* Adjust the background color and opacity as needed */
+    padding: 8px;
+    margin: 8px auto; /* Center the form on the page */
+   /* border: 2px solid #333; /* Set the border color and width */
+    border-radius: 10px;
+    text-align: center;
+    
+
+}
+.box{
+    
+    margin-bottom: 20px;
+}
+
+
+/* Style form elements as needed */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.navigation{
+    display: flex;
+    justify-content:flex-end;
+    margin-top: 30px;
+    margin-right: 130px;
+    color: black;
+}
+.navigation a{
+    position: relative;
+    font-size: 5 em;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 50px;
+
+
+}
+.l{
+    margin-right: 5%;
+}
+
+.navigation a::after{
+ content: '';
+ position: absolute;
+ left: 0;
+ bottom: -6px;
+ width: 100%;
+ height: 3px;
+ background:black;
+ border-radius: 20px;
+ transform:scaleX(0);
+ transition: 0.5s;
+
+}
+
+.navigation a:hover::after{
+  
+    transform: scaleX(1);
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn{
+    width:100%;
+    height:45px;
+    background: #000b0f;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color:#fff;
+    font-weight:500;
+    text-decoration: none;
+
+}
+.td{
+    color:black;
+}
+.td-tdd{
+    background-color: white;
+    height: 30px;
+   
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a link:link{
+    color:black;
+    
+}
+.a link:visited{
+    color:black;
+}
+.h{
+    font-weight: normal;
+}
+
+@media screen and (max-width:420px ) and (max-height:800px) {
+    body{
+        display:block;
+        background:url(bg2.jpeg) repeat  ;
+        background-size:cover;
+        background-position: center;
+     }
+     .logo{
+         display: flex;
+         justify-content: center;
+     
+     }
+     .h{
+        font-weight: normal;
+    }
+    
+ 
+     .title{
+         margin-top: 20px;
+         background: url(w.png) no-repeat;
+    
+         background-size:contain;
+         height: 100px;
+         margin-left: 0px;
+         
+        
+         
+     }
+  
+     .row{
+        display: flex;
+        align-content: flex-end;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
+        
+     }
+     .navigation{
+         width: 80%;
+         flex-direction: column;
+      
+         display: flex;
+         
+         
+     }
+     
+ .navigation a::after{
+     content: '';
+     position: absolute;
+     left: 0;
+     bottom: -6px;
+     width: 100%;
+     height: 3px;
+     background:black;
+     border-radius: 20px;
+     transform:scaleX(0);
+     transition: 0.5s;
+    
+    }
+    
+    .navigation a:hover::after{
+      
+        transform: scaleX(10);
+    }
+    header{
+     padding:0;
+    }
+     
+     .announce{
+        
+        
+         width: 100%;
+         top:24%;
+         height: 10px;
+         font-size: small; 
+        
+     }
+     .n{
+         display: flex;
+         justify-content: flex-end;
+         height:20px;
+         width: 80%;
+         
+       
+        
+         flex-direction: row-reverse;
+         font-size:smaller;
+         
+         
+     }
+     .navigation .btnlogin-popup{
+        
+         margin-top: 26px;
+         height: 30px;
+         margin-right: 110px;
+         font-size:medium;
+         width: 260px;
+         
+     }
+     .navigation a{
+         margin-top: 20px;
+         display: flex;
+         justify-content:left;
+         align-items: flex-end;
+        
+     }
+     form{
+        width:320px;
+        margin-top: 180px;
+     }
+    }
